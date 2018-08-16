@@ -20,7 +20,7 @@ class SectionBrands extends Component {
     return (
       <div className={classes.container}>
         <GridContainer>
-          <GridItem xs={12} sm={2} md={3} >
+          <GridItem xs={12} sm={4} md={3} >
             <img
               src={mynt}
               alt="..."
@@ -35,7 +35,7 @@ class SectionBrands extends Component {
             <h3 className={classes.title}>Mynt</h3>
           </GridItem>
 
-          <GridItem xs={12} sm={2} md={3} >
+          <GridItem xs={12} sm={4} md={3} >
             <img
               src={renit}
               alt="..."
@@ -50,7 +50,7 @@ class SectionBrands extends Component {
             <h3 className={classes.title}>Renit</h3>
           </GridItem>
 
-          <GridItem xs={12} sm={2} md={3} >
+          <GridItem xs={12} sm={4} md={3} >
             <img
               src={authentise}
               alt="..."
@@ -65,7 +65,7 @@ class SectionBrands extends Component {
             <h3 className={classes.title}>Authentise</h3>
           </GridItem>
 
-          <GridItem xs={12} sm={2} md={3} >
+          <GridItem xs={12} sm={4} md={3} >
             <img
               src={warhammer}
               alt="..."
