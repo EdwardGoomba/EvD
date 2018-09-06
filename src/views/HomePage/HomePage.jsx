@@ -8,6 +8,8 @@ import Header from "components/Header/Header.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
+// sections of this Page
+import WhySection from "./Sections/WhySection";
 
 import headersStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx";
 
@@ -72,7 +74,7 @@ function HomePage({ ...props }) {
                   From launching new products to adding new features, all you need is the courage to get started.
                 </h4>
                 <br />
-                <Button
+                {/* <Button
                   color="danger"
                   size="lg"
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -81,12 +83,13 @@ function HomePage({ ...props }) {
                 >
                   <i className="fas fa-ticket-alt" />
                   Order Now
-                </Button>
+                </Button> */}
               </GridItem>
             </GridContainer>
           </div>
         </div>
       </div>
+      <WhySection />
     </div>
   );
 }
