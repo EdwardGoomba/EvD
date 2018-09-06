@@ -10,6 +10,7 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 // sections of this Page
 import WhySection from "./Sections/WhySection";
+import AboutSection from "./Sections/AboutSection";
 
 import headersStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx";
 
@@ -89,6 +90,7 @@ function HomePage({ ...props }) {
           </div>
         </div>
       </div>
+      <AboutSection />
       <WhySection />
     </div>
   );

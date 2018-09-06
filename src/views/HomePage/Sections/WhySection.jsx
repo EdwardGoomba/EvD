@@ -26,7 +26,7 @@ function WhySection({ ...props }) {
                 I believe in changing the world, <strong>one idea at a time</strong>. I believe that every dream, big or small, has the potential of becoming a reality. I do this with a simple, repeatable process that takes an product from idea to execution. At the end of your journey you will come out with a beautifully designed, easy to use product that is completely focused on your customers true needs and ultimately brings irreplaceable value into their lives.
               </h3>
               <h3 className={classes.description}>
-                Need another reason? <strong>I only work with SaaS startups</strong>. Why? These are the people and teams and teams like you, who time and time again continue to push the boundaries of what is possible. Their goals align with my mission and I believe I can bring the most value to this space.
+                Need another reason? <strong>I only work with SaaS startups</strong>. Why? These are the people and teams like you, who time and time again continue to push the boundaries of what is possible. Their goals align with my mission and I believe I can bring the most value to this space.
               </h3>
             </GridItem>
           </GridContainer>
