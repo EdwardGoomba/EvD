@@ -1,54 +1,39 @@
-import React from "react";
+import React from "react"
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-import Extension from "@material-ui/icons/Extension";
-import ChildFriendly from "@material-ui/icons/ChildFriendly";
-import WatchLater from "@material-ui/icons/WatchLater";
+import withStyles from "@material-ui/core/styles/withStyles"
 
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import InfoArea from "components/InfoArea/InfoArea.jsx";
+import GridContainer from "components/Grid/GridContainer.jsx"
+import GridItem from "components/Grid/GridItem.jsx"
 
-import featuresStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle.jsx";
+import featuresStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle.jsx"
 
 function WhySection({ ...props }) {
-  const { classes, ...rest } = props;
+  const { classes, ...rest } = props
   return (
     <div className="cd-section" {...rest}>
       <div className={classes.container}>
-        <div className={classes.features3}>
+        <div className={classes.features1}>
           <GridContainer>
-            <GridItem xs={12} sm={6} md={6}>
+            <GridItem
+              xs={12}
+              sm={10}
+              md={10}
+              className={`${classes.mlAuto} ${classes.mrAuto}`}
+            >
               <h2 className={classes.title}>Why work with me?</h2>
-              <InfoArea
-                className={classes.infoArea}
-                icon={Extension}
-                title="Hundreds of Components"
-                description="The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before."
-                iconColor="primary"
-              />
-              <InfoArea
-                className={classes.infoArea}
-                icon={ChildFriendly}
-                title="Easy to Use"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                iconColor="primary"
-              />
-              <InfoArea
-                className={classes.infoArea}
-                icon={WatchLater}
-                title="Fast Prototyping"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                iconColor="primary"
-              />
+              <h3 className={classes.description}>
+                I believe in changing the world, <strong>one idea at a time</strong>. I believe that every dream, big or small, has the potential of becoming a reality. I do this with a simple, repeatable process that takes an product from idea to execution. At the end of your journey you will come out with a beautifully designed, easy to use product that is completely focused on your customers true needs and ultimately brings irreplaceable value into their lives.
+              </h3>
+              <h3 className={classes.description}>
+                Need another reason? <strong>I only work with SaaS startups</strong>. Why? These are the people and teams and teams like you, who time and time again continue to push the boundaries of what is possible. Their goals align with my mission and I believe I can bring the most value to this space.
+              </h3>
             </GridItem>
           </GridContainer>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default withStyles(featuresStyle)(WhySection);
+export default withStyles(featuresStyle)(WhySection)
