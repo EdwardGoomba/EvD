@@ -10,6 +10,8 @@ import GridItem from "components/Grid/GridItem"
 
 import productStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/productStyle.jsx"
 
+import AboutCards from "../Sections/AboutCards"
+
 class HelpSection extends React.Component {
   render() {
     const { classes } = this.props
@@ -23,6 +25,7 @@ class HelpSection extends React.Component {
             </h3>
           </GridItem>
         </GridContainer>
+        <AboutCards />
       </div>
     )
   }
