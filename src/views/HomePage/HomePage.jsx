@@ -76,19 +76,8 @@ function HomePage({ ...props }) {
               <GridItem xs={12} sm={6} md={6}>
                 <h1 className={classes.title}>Change the world, one idea at a time.</h1>
                 <h4>
-                  From launching new products to adding new features, all you need is the courage to get started.
+                  From launching new products to adding new features, all you need is the courage to get started. Keep reading to fond out more about me, what I do, and how that can help you.
                 </h4>
-                <br />
-                {/* <Button
-                  color="danger"
-                  size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  target="_blank"
-                  rel=""
-                >
-                  <i className="fas fa-ticket-alt" />
-                  Order Now
-                </Button> */}
               </GridItem>
             </GridContainer>
           </div>

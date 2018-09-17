@@ -24,7 +24,7 @@ class BrandsCards extends Component {
             <GridItem xs={12} sm={4} md={3}>
               <img
                 src={mynt}
-                alt="..."
+                alt="Mynt Logo"
                 className={
                   classes.imgRaised +
                   " " +
