@@ -10,7 +10,9 @@ import GridItem from "components/Grid/GridItem"
 
 import productStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/productStyle.jsx"
 
-class WorkedWith extends React.Component {
+import BrandsCards from "../Sections/BrandsCards"
+
+class Brands extends React.Component {
   render() {
     const { classes } = this.props
     return (
@@ -23,9 +25,10 @@ class WorkedWith extends React.Component {
             </h3>
           </GridItem>
         </GridContainer>
+        <BrandsCards />
       </div>
     )
   }
 }
 
-export default withStyles(productStyle)(WorkedWith)
+export default withStyles(productStyle)(Brands)
