@@ -11,6 +11,10 @@ import GridItem from "components/Grid/GridItem.jsx";
 // sections of this Page
 import WhySection from "./Sections/WhySection";
 import AboutSection from "./Sections/AboutSection";
+import ProductSection from "./Sections/ProductSection"
+import HelpSection from "./Sections/HelpSection"
+import WorkedWith from "./Sections/WorkedWith"
+import Contact from "./Sections/Contact"
 
 import headersStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx";
 
@@ -92,6 +96,10 @@ function HomePage({ ...props }) {
       </div>
       <AboutSection />
       <WhySection />
+      <ProductSection />
+      <HelpSection />
+      <WorkedWith />
+      <Contact />
     </div>
   );
 }
