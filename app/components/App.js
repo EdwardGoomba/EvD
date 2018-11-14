@@ -5,7 +5,7 @@ class App extends Component {
     return (
       <div className='container'>
         <h3>Edward V Design</h3>
-        <h1>Hello! I'm Edward</h1>
+        <h1>Hello! I'm Edward.</h1>
         <h2>I design, develop, and ship products.</h2>
 
         <h4>I believe in changing the world, one idea at a time. I do this with a simple, repeatable process that takes a product from idea to execution. At the end of your journey you will come out with a beautifully designed, easy to use product that is completely focused on your customers true needs and ultimately brings irreplaceable value into their lives. Enough about me though, how can I help you?</h4>
