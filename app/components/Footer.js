@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Bear from '../img/evd-logo.png'
-
 // Footer
 const FooterWrap = styled.div`
   display: flex;
@@ -43,7 +41,7 @@ const NavDirective = styled.a`
 const Footer = () => {
   return (
     <FooterWrap>
-      <LogoImg src={Bear} />
+      <Logo>Edward V Design</Logo>
       <Nav>
         <NavLinks><NavDirective href='https://twitter.com/EdwardGoomba'>twitter</NavDirective></NavLinks>
         <NavLinks><NavDirective href='https://www.instagram.com/edwardvdesign/'>instagram</NavDirective></NavLinks>
