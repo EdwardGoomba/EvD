@@ -24,8 +24,10 @@ const Nav = styled.ul`
 
 const NavLinks = styled.li`
   padding-left: 1em;
+  padding-top: 0.8em;
   text-decoration: none;
   list-style: none;
+  font-size: 1.2em;
 `
 
 const NavDirective = styled.a`
