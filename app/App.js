@@ -67,9 +67,9 @@ class App extends Component {
         <Header />
 
         <IntroContainer>
-          <Hello>Hello! I'm Edward. I design, develop, and ship products.</Hello>
+          <Hello>Hello! I'm Edward. I design and develop software products.</Hello>
 
-          <Details>I help visualize ideas through good design, and develop them into a reality. I also help focus on what stays and what goes. Enough about me though, how can I help you?</Details>
+          <Details>I help businesses and startups visualize their ideas through good design, and develop them into reality. I believe in thinking differently, and that less is more. Enough about me though, how can I help you?</Details>
           <Email href='mailto:ask@edwardvdesign.com'>ask@edwardvdesign.com</Email>
         </IntroContainer>
 
