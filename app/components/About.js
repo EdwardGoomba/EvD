@@ -11,8 +11,8 @@ const Hello = styled.h1`
 const Details = styled.h4`
   font-family: roboto, sans-serif;
   font-size: 1.4em;
-  line-height: 1.8em;
   padding-bottom: 1.6em;
+  color: #747474;
 `
 
 const Email = styled.a`
@@ -41,6 +41,21 @@ const IntroContainer = styled.div`
   padding-top: 6em;
 `
 
+const DetailsWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+`
+
+const Skills = styled.div`
+  width: 50%;
+`
+
+const Values = styled.div`
+  width: 50%;
+`
+
 const CTA = styled.h3`
   font-family: acumin-pro, sans-serif;
   font-size: 3em;
@@ -66,6 +81,37 @@ const About = () => {
           In my spare time I enjoy spending time with my family, making more things, and filming.
         </SubHeading>
       </IntroContainer>
+
+      <DetailsWrapper>
+        <Skills>
+          <Heading>Skills</Heading>
+          <SubHeading>User experience design (ux)</SubHeading>
+          <Details>Make it easy and intuitive to do what you want.</Details>
+
+          <SubHeading>Web and user interface design (ui)</SubHeading>
+          <Details>Websites, apps, you name it...</Details>
+
+          <SubHeading>Web and app development (JS, React)</SubHeading>
+          <Details>Im a front end developer - I build the stuff you see.</Details>
+
+          <SubHeading>Roadmapping</SubHeading>
+          <Details>Sometimes, you just need to see where your going.</Details>
+        </Skills>
+
+        <Values>
+          <Heading>Values</Heading>
+          <SubHeading>Adventure</SubHeading>
+          <SubHeading>Balance</SubHeading>
+          <SubHeading>Happiness</SubHeading>
+          <SubHeading>Hard Word</SubHeading>
+          <SubHeading>Openness</SubHeading>
+        </Values>
+      </DetailsWrapper>
+
+      <CTA>Let's work together on your idea.</CTA>
+      <SubHeading>Email</SubHeading>
+      <Email href='mailto:ask@edwardvdesign.com'>ask@edwardvdesign.com</Email>
+
     </div>
   )
 }
