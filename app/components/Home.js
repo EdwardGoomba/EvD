@@ -1,10 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// Import components
-import Header from './Header'
-import Footer from './Footer'
-
 // Display Styles
 const Hello = styled.h1`
   font-family: acumin-pro, sans-serif;
@@ -40,14 +36,6 @@ const SubHeading = styled.h3`
   font-size: 1.6em;
 `
 
-// Container
-const Container = styled.div`
-  width: 80vw;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-`
-
 const IntroContainer = styled.div`
   max-width: 500px;
   padding-top: 6em;
@@ -62,9 +50,7 @@ const CTA = styled.h3`
 
 const Home = () => {
   return (
-    <Container>
-      <Header />
-
+    <div>
       <IntroContainer>
         <Hello>Hello! I'm Edward. I design and develop software products.</Hello>
 
@@ -81,9 +67,7 @@ const Home = () => {
       <CTA>Let's work together on your idea.</CTA>
       <SubHeading>Email</SubHeading>
       <Email href='mailto:ask@edwardvdesign.com'>ask@edwardvdesign.com</Email>
-
-      <Footer />
-    </Container>
+    </div>
   )
 }
 

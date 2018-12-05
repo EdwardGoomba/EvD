@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 // Header
@@ -40,8 +41,12 @@ const Header = () => {
     <HeaderWrap>
       <Logo>Edward V Design</Logo>
       <Nav>
-        {/* <NavLinks><NavDirective href='/about'>about</NavDirective></NavLinks>
-        <NavLinks><NavDirective href='/blog'>blog</NavDirective></NavLinks> */}
+        <NavLinks>
+          <Link to='/about'>about</Link>
+        </NavLinks>
+        <NavLinks>
+          <Link to='/blog'>blog</Link>
+        </NavLinks>
         <NavLinks><NavDirective href='mailto:ask@edwardvdesign.com'>contact</NavDirective></NavLinks>
       </Nav>
     </HeaderWrap>
