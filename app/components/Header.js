@@ -39,7 +39,7 @@ const NavDirective = styled.a`
 const Header = () => {
   return (
     <HeaderWrap>
-      <Logo>Edward V Design</Logo>
+      <Logo><NavDirective href='/'>Edward V Design</NavDirective></Logo>
       <Nav>
         <NavLinks>
           <Link to='/about'>about</Link>
