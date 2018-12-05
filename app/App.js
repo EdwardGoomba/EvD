@@ -74,7 +74,7 @@ class App extends Component {
         </IntroContainer>
 
         <Heading>Current Projects</Heading>
-        <SubHeading>Constance, Boostpoint, Thyme</SubHeading>
+        <SubHeading>Constance, <a href='https://www.boostpoint.com/'>Boostpoint</a>, Thyme</SubHeading>
 
         <Heading>What else do I do?</Heading>
         <SubHeading>I write. Check it out.</SubHeading>
