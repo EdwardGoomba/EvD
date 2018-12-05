@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// Display Styles
+// Styled Components
+import media from './Media'
+
 const Hello = styled.h1`
   font-family: acumin-pro, sans-serif;
   font-size: 3.5em;
@@ -45,15 +47,18 @@ const DetailsWrapper = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
 `
 
 const Skills = styled.div`
-  width: 50%;
+  width: 40%;
+  ${media.desktop`width: 40%;`}
+  ${media.tablet`width: 40%;`}
+  ${media.phone`width: 100%;`}
 `
 
 const Values = styled.div`
-  width: 50%;
+  width: 40%;
 `
 
 const CTA = styled.h3`
@@ -91,11 +96,11 @@ const About = () => {
           <SubHeading>Web and user interface design (ui)</SubHeading>
           <Details>Websites, apps, you name it...</Details>
 
-          <SubHeading>Web and app development (JS, React)</SubHeading>
+          <SubHeading>Web and app development</SubHeading>
           <Details>Im a front end developer - I build the stuff you see.</Details>
 
-          <SubHeading>Roadmapping</SubHeading>
-          <Details>Sometimes, you just need to see where your going.</Details>
+          {/* <SubHeading>Roadmapping</SubHeading>
+          <Details>Sometimes, you just need to see where your going.</Details> */}
         </Skills>
 
         <Values>
