@@ -45,7 +45,7 @@ const Footer = () => {
       <Logo>Edward V Design</Logo>
       <Nav>
         <NavLinks>
-          <NavDirective href='https://twitter.com/EdwardGoomba'>dribbble</NavDirective>
+          <NavDirective href='https://dribbble.com/edwardgoomba'>dribbble</NavDirective>
         </NavLinks>
         <NavLinks>
           <NavDirective href='https://twitter.com/EdwardGoomba'>twitter</NavDirective>
