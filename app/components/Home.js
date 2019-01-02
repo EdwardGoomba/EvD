@@ -52,14 +52,14 @@ const Home = () => {
   return (
     <div>
       <IntroContainer>
-        <Hello>Hello! I'm Edward. I design and develop software products.</Hello>
+        <Hello>Hello! I'm Edward. I am a product designer.</Hello>
 
         <Details>I help businesses and startups solve problems by visualizing their ideas through good design, and developing them into solutions. I believe in thinking differently, and that less is more. Enough about me though, how can I help you?</Details>
         <Email href='mailto:ask@edwardvdesign.com'>ask@edwardvdesign.com</Email>
       </IntroContainer>
 
       <Heading>Current Projects</Heading>
-      <SubHeading>Constance, <a href='https://www.boostpoint.com/'>Boostpoint</a>, Thyme</SubHeading>
+      <SubHeading><a href='https://www.constance.one/'>Constance</a>, <a href='https://www.boostpoint.com/'>Boostpoint</a>, Thyme</SubHeading>
 
       <Heading>What else do I do?</Heading>
       <SubHeading>I write. Check it out.</SubHeading>

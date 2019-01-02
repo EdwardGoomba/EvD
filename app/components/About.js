@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// Images
+import me from '../img/me.jpg'
+
 // Styled Components
 import media from './Media'
 
@@ -8,6 +11,10 @@ const Hello = styled.h1`
   font-family: acumin-pro, sans-serif;
   font-size: 3.5em;
   line-height: 1.3em;
+`
+
+const Me = styled.img`
+  max-width: 600px;
 `
 
 const Details = styled.h4`
@@ -73,6 +80,8 @@ const About = () => {
     <div>
       <IntroContainer>
         <Hello>About</Hello>
+        <Me src={me} />
+        <p>Yup, your looking at my face. Muy guapo no?</p>
 
         <SubHeading>
           I am a huge fan of helping businesses and startups express their ideas through good design. Usability and design make or break a company. Seeing a company grow and succeed through the power of design inspires me to do my best work everytime.
