@@ -106,7 +106,7 @@ const About = () => {
           <Details>Websites, apps, you name it...</Details>
 
           <SubHeading>Web and app development</SubHeading>
-          <Details>Im a front end developer - I build the stuff you see.</Details>
+          <Details>Im a developer - I build the stuff you see (also the stuff you dont see).</Details>
 
           {/* <SubHeading>Roadmapping</SubHeading>
           <Details>Sometimes, you just need to see where your going.</Details> */}

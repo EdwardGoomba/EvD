@@ -48,7 +48,7 @@ const CTA = styled.h3`
   padding-top: 1.5em;
 `
 
-const Blog = () => {
+const Thoughts = () => {
   return (
     <div>
       <IntroContainer>
@@ -59,4 +59,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Thoughts

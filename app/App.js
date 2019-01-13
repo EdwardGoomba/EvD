@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
-import Blog from './components/Blog'
+import Thoughts from './components/Thoughts'
 import Footer from './components/Footer'
 
 // Styled Components
@@ -27,7 +27,7 @@ const App = () => {
 
         <Route exact path='/' component={Home} />
         <Route path='/about' component={About} />
-        <Route path='/blog' component={Blog} />
+        <Route path='/thoughts' component={Thoughts} />
 
         <Footer />
       </Container>

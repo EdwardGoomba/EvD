@@ -45,7 +45,7 @@ const Header = () => {
           <Link to='/about'>about</Link>
         </NavLinks>
         <NavLinks>
-          <Link to='/blog'>blog</Link>
+          <Link to='/thoughts'>thoughts</Link>
         </NavLinks>
         <NavLinks><NavDirective href='mailto:ask@edwardvdesign.com'>contact</NavDirective></NavLinks>
       </Nav>
