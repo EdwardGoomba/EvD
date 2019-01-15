@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-// Display Styles
+// Styled Components
 const Hello = styled.h1`
   font-family: acumin-pro, sans-serif;
   font-size: 3.5em;
@@ -54,7 +55,7 @@ const Home = () => {
       <IntroContainer>
         <Hello>Hello! I'm Edward. I am a product designer.</Hello>
 
-        <Details>I help businesses and startups solve problems by visualizing their ideas through good design, and developing them into solutions. I believe in thinking differently, and that less is more. Enough about me though, how can I help you?</Details>
+        <Details>I help SaaS businesses and startups solve problems by visualizing their ideas through good design, and developing them into solutions. I believe in thinking differently, and that less is more. Enough <Link to='/about'>about me</Link> though, how can I help you?</Details>
         <Email href='mailto:ask@edwardvdesign.com'>ask@edwardvdesign.com</Email>
       </IntroContainer>
 
@@ -62,7 +63,7 @@ const Home = () => {
       <SubHeading><a href='https://www.constance.one/'>Constance</a>, <a href='https://www.boostpoint.com/'>Boostpoint</a>, Thyme</SubHeading>
 
       <Heading>What else do I do?</Heading>
-      <SubHeading>I write. Check it out.</SubHeading>
+      <SubHeading>I write. <Link to='/thoughts'>Check it out.</Link></SubHeading>
 
       <CTA>Let's work together on your idea.</CTA>
       <SubHeading>Email</SubHeading>

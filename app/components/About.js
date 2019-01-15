@@ -79,16 +79,16 @@ const About = () => {
   return (
     <div>
       <IntroContainer>
-        <Hello>About</Hello>
+        <Hello>Hello again</Hello>
         <Me src={me} />
         <p>Yup, your looking at my face. Muy guapo no?</p>
 
         <SubHeading>
-          I am a huge fan of helping businesses and startups express their ideas through good design. Usability and design make or break a company. Seeing a company grow and succeed through the power of design inspires me to do my best work everytime.
+          Earlier I said I help businesses and startups solve problems - how? I do this by designing products that take your complex business problems and turn them into simple and beautiful interfaces while focusing on what maters most - your customers experience.
         </SubHeading>
 
         <SubHeading>
-          My minimalistic approach to design and my intentional focus on less allows me to quickly craft a core product. The sooner its out the door, the sooner we get real feedback - thats when the fun begins.
+          I also build design systems. A design system is a collection of standards for design and front end code.  This series of UI components will help your team quickly assemble new interfaces with higher efficiency and consistency.
         </SubHeading>
 
         <SubHeading>

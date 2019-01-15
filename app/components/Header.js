@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
+// Styled Components
+import NavDirective from './styled/NavDirective'
+
 // Header
 const HeaderWrap = styled.div`
   display: flex;
@@ -31,22 +34,17 @@ const NavLinks = styled.li`
   font-size: 1.2em;
 `
 
-const NavDirective = styled.a`
-  text-decoration: none;
-  color: #000;
-`
-
 const Header = () => {
   return (
     <HeaderWrap>
       <Logo><NavDirective href='/'>Edward V Design</NavDirective></Logo>
       <Nav>
-        <NavLinks>
+        {/* <NavLinks>
           <Link to='/about'>about</Link>
         </NavLinks>
         <NavLinks>
           <Link to='/thoughts'>thoughts</Link>
-        </NavLinks>
+        </NavLinks> */}
         <NavLinks><NavDirective href='mailto:ask@edwardvdesign.com'>contact</NavDirective></NavLinks>
       </Nav>
     </HeaderWrap>
