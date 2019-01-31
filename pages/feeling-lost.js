@@ -14,7 +14,7 @@ const Hello = styled.h1`
 `
 
 const Details = styled.h4`
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.4em;
   line-height: 1.8em;
   padding-bottom: 1.6em;
@@ -56,12 +56,10 @@ const CTA = styled.h3`
 const Thoughts = () => (
   <Layout>
     <IntroContainer>
-      <Hello>Thoughts</Hello>
-        <SubHeading>
-        - <Link href='/feeling-lost'>
-            <NavDirective brand>No Money, Few Clients, Feeling Lost</NavDirective>
-          </Link>
-        </SubHeading>
+      <Hello>No Money, Few Clients, Feeling Lost</Hello>
+        <Details>
+          ...coming soon. Notice a theme yet?
+        </Details>
     </IntroContainer>
   </Layout>
 )

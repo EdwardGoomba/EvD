@@ -45,6 +45,7 @@ const Heading = styled.h2`
 const SubHeading = styled.h3`
   font-family: source-code-pro, monospace;
   font-size: 1.6em;
+  line-height: 2.2rem;
 `
 
 const IntroContainer = styled.div`
@@ -82,7 +83,7 @@ const CTA = styled.h3`
 const About = () => (
   <Layout>
     <IntroContainer>
-      <Hello>Hello again</Hello>
+      <Hello>Hello again.</Hello>
       <Me src='../static/img/me.jpg' />
       <p>Yup, your looking at my face. Muy guapo no?</p>
 
@@ -104,7 +105,7 @@ const About = () => (
         <Heading>I Believe</Heading>
         <SubHeading>- Product design should follow a process, be fun and rewarding</SubHeading>
         <SubHeading>- Design shouldnt be difficult or something you dread.</SubHeading>
-        <SubHeading>- Every person should ave a great experience with a designer.</SubHeading>
+        <SubHeading>- Every person should have a great experience with a designer.</SubHeading>
       </Beliefs>
 
       <Values>
@@ -119,7 +120,7 @@ const About = () => (
 
     <CTA>Let's work together on your idea.</CTA>
     <SubHeading>
-      <Link href='/contact'><NavDirective>Start your Project</NavDirective></Link>
+      <Link href='/contact'><NavDirective brand>Start your Project</NavDirective></Link>
     </SubHeading>
   </Layout>
 )
