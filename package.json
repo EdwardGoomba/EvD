@@ -16,9 +16,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "deploy": "yarn build && yarn export"
+    "start": "next start"
   },
   "dependencies": {
     "next": "^7.0.2",
