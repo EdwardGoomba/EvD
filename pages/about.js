@@ -84,7 +84,7 @@ const About = () => (
   <Layout>
     <IntroContainer>
       <Hello>Hello again.</Hello>
-      <Me src='../static/img/me.jpg' />
+      <Me src='../static/me.jpg' />
       <p>Yup, your looking at my face. Muy guapo no?</p>
 
       <SubHeading>
